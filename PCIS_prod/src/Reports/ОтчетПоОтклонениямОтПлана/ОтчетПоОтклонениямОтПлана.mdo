@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6e7f890-1234-5678-d6e7-f89012345678">
   <producedTypes>
-    <objectType typeId="77777777-8888-9999-0000-111111111111" valueTypeId="00000000-1111-2222-3333-444444444444"/>
-    <managerType typeId="88888888-9999-0000-1111-222222222222" valueTypeId="11111111-2222-3333-4444-555555555555"/>
+    <objectType typeId="59ed4d23-76b7-4a7e-929d-cf282e57c0ea" valueTypeId="a1b140e5-65e7-4387-85c7-911514de3e36"/>
+    <managerType typeId="489e3a50-be31-4cd8-808d-89cf1383ef11" valueTypeId="58d2c0d9-c779-439e-96dc-6efa4845dd0e"/>
   </producedTypes>
   <name>ОтчетПоОтклонениямОтПлана</name>
   <synonym>

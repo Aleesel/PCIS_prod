@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-e5f6-7890-abcd-ef1234567890">
   <producedTypes>
-    <objectType typeId="11111111-2222-3333-4444-555555555555" valueTypeId="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"/>
-    <refType typeId="22222222-3333-4444-5555-666666666666" valueTypeId="bbbbbbbb-cccc-dddd-eeee-ffffffffffff"/>
-    <selectionType typeId="33333333-4444-5555-6666-777777777777" valueTypeId="cccccccc-dddd-eeee-ffff-000000000000"/>
-    <listType typeId="44444444-5555-6666-7777-888888888888" valueTypeId="dddddddd-eeee-ffff-0000-111111111111"/>
-    <managerType typeId="55555555-6666-7777-8888-999999999999" valueTypeId="eeeeeeee-ffff-0000-1111-222222222222"/>
+    <objectType typeId="a9e04e52-b176-44b1-bad0-7f0498135b2a" valueTypeId="b17811cf-0806-488b-ad5c-d21ea947928f"/>
+    <refType typeId="ba31fc34-bacd-43e5-89c9-241cbc9d91c6" valueTypeId="c747881f-2811-4912-9041-d7d4e9db97c1"/>
+    <selectionType typeId="32dd5ed0-e7ce-4d72-9f9d-596bd0266b83" valueTypeId="aa16b9d3-ea92-4bd0-a5b4-c2efe9841a0c"/>
+    <listType typeId="44444444-5555-6666-7777-888888888888" valueTypeId="41e89249-5d0a-4b09-b321-af32a8238bc3"/>
+    <managerType typeId="7f7afce8-0625-453e-b654-0cf3ae9b2ba4" valueTypeId="0d34a7d0-859c-4fa5-8471-065e42890a92"/>
   </producedTypes>
   <name>Должности</name>
   <synonym>
