@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-9012-3456-1234-567890123456">
   <producedTypes>
-    <objectType typeId="44444444-5555-6666-7777-888888888890" valueTypeId="55555555-6666-7777-8888-999999999999"/>
-    <managerType typeId="55555555-6666-7777-8888-999999999990" valueTypeId="66666666-7777-8888-9999-000000000000"/>
+    <objectType typeId="44444444-5555-6666-7777-888888888890" valueTypeId="af20db51-1b6b-45ae-91ba-05a7444bfd0e"/>
+    <managerType typeId="55555555-6666-7777-8888-999999999990" valueTypeId="c58a2043-04de-4ea4-abb2-e9a5ab95643b"/>
   </producedTypes>
   <name>ОтчетПоПросроченнымЗадачам</name>
   <synonym>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1e2f3a4-b5c6-7890-d1e2-f3a4b5c67890">
   <producedTypes>
-    <objectType typeId="11111111-2222-3333-4444-555555555555" valueTypeId="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee"/>
-    <managerType typeId="22222222-3333-4444-5555-666666666666" valueTypeId="bbbbbbbb-cccc-dddd-eeee-ffffffffffff"/>
+    <objectType typeId="66c47dea-b296-4a8c-9b3f-bd4c659e67c4" valueTypeId="04946cbd-11a5-4dcc-9e4b-09e21b6fb0a9"/>
+    <managerType typeId="d9bba0e3-9f71-4086-8cb3-24140e32563d" valueTypeId="7ac0fd96-9c77-4b05-94f9-7d131de14bdd"/>
   </producedTypes>
   <name>СтатусныйОтчетПоПроекту</name>
   <synonym>
