@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2a3b4c5-d6e7-8901-f2a3-b4c5d6e78901">
+  <producedTypes>
+    <objectType typeId="33333333-4444-5555-6666-777777777777" valueTypeId="cccccccc-dddd-eeee-ffff-000000000000"/>
+    <managerType typeId="44444444-5555-6666-7777-888888888889" valueTypeId="dddddddd-eeee-ffff-0000-111111111111"/>
+  </producedTypes>
+  <name>СтатусныйОтчетПоЭтапу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусный отчет по этапу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a3b4c5d6-e7f8-9012-a3b4-c5d6e7f89012">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

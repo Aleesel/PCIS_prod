@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a08362a0-5951-43e3-9ed2-3fc3ca9b9b19">
+  <producedTypes>
+    <refType typeId="aea13b9e-842f-4cc4-bccb-ebaaff8b0258" valueTypeId="5a32b3df-4787-42ad-a7cc-093f5991255a"/>
+    <listType typeId="66ed4726-483e-4965-a841-31ebee51be2a" valueTypeId="348a36c2-c92a-469c-8c46-61a60ed80f7f"/>
+    <managerType typeId="095566a0-6810-48dc-ac42-156c2c4bc4ba" valueTypeId="13798159-bcb0-4ba6-85a7-43fee0b2f25c"/>
+  </producedTypes>
+  <name>ЦветЭтапа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвет этапа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96daa6d6-3a1e-4d3a-8c4b-1564a2efefe3">
+    <name>Цвет8F73BA</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет8 f73 BA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af606778-9c16-4733-ab48-d3eb9ced631f">
+    <name>Цвет3C50B3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет3 c50 b3</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b55df96-f2d4-4846-adc5-b1bb0b4ab510">
+    <name>ЦветC454A2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет c454 a2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90b2001b-6eb2-4652-8ec1-1c11dc418bf2">
+    <name>ЦветC3312E</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет c3312 E</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e7decd0-06a4-4f93-a281-bd339181d1e8">
+    <name>Цвет2C4B40</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет2 c4 b40</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44b37e1b-37c2-4a7e-b70d-15ba8999b6e6">
+    <name>Цвет863E54</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет863 e54</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b7a2a10-70c6-4dc6-93f7-ffdcf94041c7">
+    <name>Цвет63164F</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет63164 F</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99ef4652-9c24-42ab-b09b-8cc7e0a4b264">
+    <name>Цвет1D1701</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет1 d1701</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d42712cf-e02e-41b9-87f2-383a0b6325a1">
+    <name>Цвет124E6D</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет124 e6 D</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a1be87f-ad41-4cf8-861c-3f62bb9939fb">
+    <name>Цвет834F0F</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет834 f0 F</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

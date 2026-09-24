@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39b936b3-b672-4635-b9e3-808f0c587462">
+  <producedTypes>
+    <objectType typeId="b2954a6a-9fc7-42a8-a440-f2f4b85e2c54" valueTypeId="9e918e0f-4c05-4f11-a3cf-3b540aef0fb7"/>
+    <managerType typeId="fabca0da-22ad-4334-87da-2eacae7cad7e" valueTypeId="09ee1d9a-f740-4e27-96f6-200296054d2b"/>
+  </producedTypes>
+  <name>ДиаграммаГантаПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма ганта проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДиаграммаГантаПроекта.Form.Форма</defaultForm>
+  <forms uuid="0a2e941a-f526-4fa6-acd8-af58236993fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

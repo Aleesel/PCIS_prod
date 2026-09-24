@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ee5b970-f63d-407d-942d-901287998252">
+  <producedTypes>
+    <objectType typeId="07eca81d-bd2d-4801-8755-ecf4a30c7bd0" valueTypeId="06ea901d-0831-4111-9aaf-0d32d1c296d7"/>
+    <refType typeId="43e90052-9bcc-49e4-bb5b-065bad5f31a8" valueTypeId="4e226f19-62f9-4044-9227-7bd59b7d007e"/>
+    <selectionType typeId="8e7bbfe9-9ff3-45c8-b760-ae5860d032e1" valueTypeId="0f431c92-0775-4b18-95bf-da6d92180633"/>
+    <listType typeId="5898ed53-9855-4d60-816d-6f85f2feefc7" valueTypeId="83df7161-841f-4be7-84d9-f4421f857651"/>
+    <managerType typeId="188bf45e-2f72-402b-a3c6-eed3257ed044" valueTypeId="6f727ec4-9418-42c3-896e-945261b5cb8f"/>
+  </producedTypes>
+  <name>КомандаПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команда проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КомандаПроекта.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КомандаПроекта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Член команды</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Проект</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КомандаПроекта.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="46657a31-6f16-45b1-99e4-058f7e7ab775">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e222d6c8-9800-4ad0-8800-006fe6eb3618">
+    <name>ЧленКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член команды</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f1a2b3c4-d5e6-7890-abcd-ef1234567890">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="23f5f5e5-ee86-4a2a-88f0-fab87a768396">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

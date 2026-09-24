@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8901234-5678-9012-f890-123456789012">
+  <producedTypes>
+    <objectType typeId="99999999-0000-1111-2222-333333333333" valueTypeId="22222222-3333-4444-5555-666666666666"/>
+    <managerType typeId="00000000-1111-2222-3333-444444444444" valueTypeId="33333333-4444-5555-6666-777777777777"/>
+  </producedTypes>
+  <name>ОтчетПоРискам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по рискам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="90123456-7890-1234-9012-345678901234">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

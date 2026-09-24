@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f9856c4-6464-424e-b4c8-ca567ca14b9d">
+  <name>Проект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проект</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.ЦветЭтапа</content>
+  <content>Catalog.Этап</content>
+  <content>Catalog.Проект</content>
+  <content>Catalog.КомандаПроекта</content>
+  <content>Catalog.Задача</content>
+  <content>InformationRegister.ХодВыполненияЗадачи</content>
+  <content>InformationRegister.РискиПроекта</content>
+  <content>InformationRegister.ВехиПроекта</content>
+  <content>InformationRegister.ХодВыполненияЭтапа</content>
+  <content>InformationRegister.ХодВыполненияПроекта</content>
+  <content>DataProcessor.УправлениеПроектами</content>
+</mdclass:Subsystem>

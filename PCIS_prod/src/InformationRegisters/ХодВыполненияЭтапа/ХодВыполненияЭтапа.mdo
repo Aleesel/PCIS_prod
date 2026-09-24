@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="818c169f-54df-4df9-8a89-20cb7c876a23">
+  <producedTypes>
+    <selectionType typeId="b71a74c4-975f-43d5-9ed1-47c3190e022c" valueTypeId="8074f78b-23ea-4b46-995b-0ff9eceb0bb3"/>
+    <listType typeId="d0a8a21b-1e6f-4797-8240-87bcf0fcbe5a" valueTypeId="f847d2e3-7a78-41f0-a9a0-67a8866cb45a"/>
+    <managerType typeId="767dd341-d69c-48e7-8491-840bd9a2ea57" valueTypeId="2588c014-0306-4ff8-a3e9-d432bb96b914"/>
+    <recordSetType typeId="dc8c6694-997f-4ab0-ba7c-21ee2e84574e" valueTypeId="ed40bd6d-fad0-4cdb-b3f6-49137210ccf3"/>
+    <recordKeyType typeId="8505524e-edc8-4e34-94dc-4a1980ac302f" valueTypeId="386ef392-1b82-40a4-af18-4c55e9ae755c"/>
+    <recordType typeId="6eb0d8d7-e470-44d1-b963-8006b98e41af" valueTypeId="eaec4897-a838-4d90-ac42-a541875a5266"/>
+    <recordManagerType typeId="6930aa94-94ca-4595-89da-ed3bc4facbc6" valueTypeId="e3f9b036-d8b3-4817-b7a9-77fb06ac7e81"/>
+  </producedTypes>
+  <name>ХодВыполненияЭтапа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ход выполнения этапа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ХодВыполненияЭтапа.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="42f85c03-b30f-4d17-894a-730f061c3a0d">
+    <name>ПроцентВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2ecfccf6-0dc1-4995-b536-509160341d49">
+    <name>СтатусВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="00e557de-69a9-4b60-bfb6-a699a5cb226d">
+    <name>ФактДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="16425ac4-bc9e-4665-aa97-f6ca752da4bd">
+    <name>ФактДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a1a65f82-ad9e-4b3b-be66-c7b520fbbd98">
+    <name>Этап</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Этап</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8464c888-90a2-47b3-9f19-9e611c20a601">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3cdd747a-ac0f-4ada-aba1-afc44ff32e21">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

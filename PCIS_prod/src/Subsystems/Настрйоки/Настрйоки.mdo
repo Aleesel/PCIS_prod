@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeee6b55-0bc5-4b14-8cee-8b97e95b0824">
+  <name>Настрйоки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настрйоки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.Сотрудники</content>
+  <content>DataProcessor.УправлениеПроектами</content>
+</mdclass:Subsystem>

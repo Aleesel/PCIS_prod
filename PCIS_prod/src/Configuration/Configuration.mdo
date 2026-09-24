@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d875125-4b9c-4ca7-9734-a64ea6a682ee">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="da1ab29e-a473-49d4-92bf-beb1d0badf33"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="02abca6a-83e9-4bee-8070-c8782b74f485"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8c9c970b-ff18-4d5e-b974-612dbe959b30"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8d5858db-8748-45ec-93e2-3ff3a4784d91"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="4cde86d4-b4fb-436b-8e02-f9449c26baab"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="90a2a8b8-ec64-42f7-bb6f-f4cc220a45fa"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="389f6477-1c5f-4a33-a98b-931f5deb838b"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultStyle>Style.Основной</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="87b816e2-ebf9-4d34-920d-dac808207504">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Проект</subsystems>
+  <subsystems>Subsystem.Настрйоки</subsystems>
+  <styles>Style.Основной</styles>
+  <commonModules>CommonModule.ПроектныеРасчеты</commonModules>
+  <commonModules>CommonModule.ПроектныеРасчетыКлиент</commonModules>
+  <commonModules>CommonModule.ПроектныеРасчетыДляРегламентногоЗадания</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеСтатусовПроектов</scheduledJobs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Проект</catalogs>
+  <catalogs>Catalog.КомандаПроекта</catalogs>
+  <catalogs>Catalog.Этап</catalogs>
+  <catalogs>Catalog.Задача</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <enums>Enum.ЦветЭтапа</enums>
+  <reports>Report.СводныйОтчетПоПроекту</reports>
+  <reports>Report.СтатусныйОтчетПоПроекту</reports>
+  <reports>Report.СтатусныйОтчетПоЭтапу</reports>
+  <reports>Report.ОтчетПоОтклонениямОтПлана</reports>
+  <reports>Report.ОтчетПоРискам</reports>
+  <reports>Report.ОтчетПоПросроченнымЗадачам</reports>
+  <reports>Report.ОтчетПоЗадачамНаСегодня</reports>
+  <dataProcessors>DataProcessor.ДиаграммаГантаПроекта</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеПроектами</dataProcessors>
+  <informationRegisters>InformationRegister.ХодВыполненияЗадачи</informationRegisters>
+  <informationRegisters>InformationRegister.РискиПроекта</informationRegisters>
+  <informationRegisters>InformationRegister.ВехиПроекта</informationRegisters>
+  <informationRegisters>InformationRegister.ХодВыполненияЭтапа</informationRegisters>
+  <informationRegisters>InformationRegister.ХодВыполненияПроекта</informationRegisters>
+</mdclass:Configuration>

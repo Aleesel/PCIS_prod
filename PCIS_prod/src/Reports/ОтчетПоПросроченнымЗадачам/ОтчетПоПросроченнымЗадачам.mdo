@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12345678-9012-3456-1234-567890123456">
+  <producedTypes>
+    <objectType typeId="44444444-5555-6666-7777-888888888890" valueTypeId="55555555-6666-7777-8888-999999999999"/>
+    <managerType typeId="55555555-6666-7777-8888-999999999990" valueTypeId="66666666-7777-8888-9999-000000000000"/>
+  </producedTypes>
+  <name>ОтчетПоПросроченнымЗадачам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по просроченным задачам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="23456789-0123-4567-2345-678901234567">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

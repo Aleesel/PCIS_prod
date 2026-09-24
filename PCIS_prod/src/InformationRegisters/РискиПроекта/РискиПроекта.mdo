@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a4d5a67-122c-4854-ab74-48f335923bab">
+  <producedTypes>
+    <selectionType typeId="0c8e0924-6349-436d-a9dc-fb482d1b97a7" valueTypeId="a0ebcd4e-0292-4383-ba81-52ba1d0ca6ad"/>
+    <listType typeId="b195ecd6-a268-4848-9448-83d4b92d606d" valueTypeId="e5a6c5d8-c5b2-47b7-b263-b12a282b925e"/>
+    <managerType typeId="e0a4e64d-e6fa-4ca1-8b38-9f2e431ca985" valueTypeId="4a68901a-4834-4878-8ec8-a0cf36dc8c10"/>
+    <recordSetType typeId="65a170c5-ca47-4a06-a7f5-9bd095657579" valueTypeId="29f5ddd6-d2a7-4489-8bdd-d6370ff953fd"/>
+    <recordKeyType typeId="4fbcef6e-be20-4ffa-b608-e65bbb553b27" valueTypeId="2b2f24d4-8f4e-4ebe-9374-76cb91c551ee"/>
+    <recordType typeId="cfee93e0-c6c3-4099-99c6-2c4ee408550c" valueTypeId="086958c2-d435-4f50-8338-a10b472b35bb"/>
+    <recordManagerType typeId="7f452371-1fe2-4cc1-bb8a-065d52624073" valueTypeId="3f53ecf2-2e6c-4650-b1be-c1016bf07ad5"/>
+  </producedTypes>
+  <name>РискиПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Риски проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РискиПроекта.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f147183d-c937-4aaa-a3e3-1a13118dbee3">
+    <name>Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a9fb7550-bb66-4ce3-881e-ba0411c35c18">
+    <name>ДатаРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата реализации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b4a098e5-1b4b-4d53-bb1f-e7a6d63e0ac6">
+    <name>МерыРеагирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меры реагирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="2f956221-08ac-462c-8d59-e57aa04e832d">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9abf2d1d-cd49-425b-a7a2-a0af53d1b251">
+    <name>НаименованиеРиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование риска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0b7153af-bf01-4123-962b-5575f66452f8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

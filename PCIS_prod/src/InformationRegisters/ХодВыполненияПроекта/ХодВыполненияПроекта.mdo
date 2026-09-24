@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f46a8ff-bc77-4f61-8776-c553b534098a">
+  <producedTypes>
+    <selectionType typeId="2b571aee-eaf8-40c4-80db-d51e73d16e0c" valueTypeId="cdd4bf5f-099b-4ab0-a44d-9ee1754a7c53"/>
+    <listType typeId="beaf26b4-2a81-4198-9240-c2e801442b7c" valueTypeId="1691886e-004a-480d-b45b-61462ec3cb6a"/>
+    <managerType typeId="bf2d7f78-1364-4b61-be34-be2d3e42c838" valueTypeId="fd57181e-97d8-49ea-b079-66e8b68be8da"/>
+    <recordSetType typeId="fef4584c-9806-4c51-bdf6-d31238cd295f" valueTypeId="3f771a3d-7a5b-437f-af04-49a9c868526c"/>
+    <recordKeyType typeId="42e9fc29-0e90-4d01-bdf3-8fe4cf47ec39" valueTypeId="f676ae38-19bd-4c6f-b5f5-6e28848fe91f"/>
+    <recordType typeId="80de8543-07e5-4a14-9942-6464e379a3e8" valueTypeId="9eeb5c06-a30f-4e07-a85d-fbfc372bc414"/>
+    <recordManagerType typeId="98dfa750-9b6d-4da7-8b66-9a940347e2f2" valueTypeId="e12bb374-e261-4015-b02c-33a3459fcb5e"/>
+  </producedTypes>
+  <name>ХодВыполненияПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ход выполнения проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ХодВыполненияПроекта.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="23f607fb-d11a-47b4-a08a-f87210261c1b">
+    <name>ПроцентВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b3b46b9-d57a-4f01-99f5-17cfe1cac267">
+    <name>СтатусВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="71fab95c-1678-45fb-8d06-7b839a8591bb">
+    <name>ФактДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0e51298-a7f5-4a08-b1bb-589130326f46">
+    <name>ФактДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cda95c56-b679-4014-a7f6-4f29b3a867be">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9def7a9a-54d0-405f-a008-0b91de294b43">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dd19a8b-6086-42b1-a7c0-60e242b2130d">
+  <producedTypes>
+    <selectionType typeId="229bc3e3-360d-4955-a777-f6fb0fdf2a3f" valueTypeId="8002a8d4-dcf7-432b-9ea2-c3148d198fea"/>
+    <listType typeId="d778283b-fc9c-4ec6-8097-706e607bd550" valueTypeId="c4911787-c962-4834-b64f-7b189a2dd340"/>
+    <managerType typeId="0afbe666-edcd-462d-b982-57b3e2da3763" valueTypeId="ace2ddb0-2b7a-4553-9fd5-5d5fb286eab3"/>
+    <recordSetType typeId="7cafb94d-93b6-47f4-9379-25a3d2aa25ab" valueTypeId="88fe7147-1815-4443-b624-b20aff800639"/>
+    <recordKeyType typeId="311d92dc-5149-4713-9eda-04ff9b91c7dd" valueTypeId="c059c655-f265-4496-a947-793915da4113"/>
+    <recordType typeId="666eb14b-e1c1-473c-83a3-cebbc7e99a49" valueTypeId="695e6e62-75d6-4857-a428-68195f0936fc"/>
+    <recordManagerType typeId="bda77491-ef5f-413e-bdef-3b153cfea219" valueTypeId="cbc963ca-fe8c-45be-a0ed-6a31aa059ddb"/>
+  </producedTypes>
+  <name>ВехиПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вехи проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ВехиПроекта.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="636a7b77-e437-4126-a1a8-4d22646b526c">
+    <name>НаименованиеВехи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование вехи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="5fa6d7dc-3fe9-45ab-875c-3ba1a8341073">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="81e302d1-f69e-487e-9495-6feb20ac31a6">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9ffebfe5-23ef-4a32-bc9a-29717864e752">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задача</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="127d2646-3ec1-4883-a7ce-3cf6d7e0f079">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
