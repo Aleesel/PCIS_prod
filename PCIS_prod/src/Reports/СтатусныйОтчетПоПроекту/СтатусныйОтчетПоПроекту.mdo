@@ -17,4 +17,5 @@
       <value>Основная схема компоновки данных</value>
     </synonym>
   </templates>
+  <mainDataCompositionSchema>ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
 </mdclass:Report>
