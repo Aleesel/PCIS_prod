@@ -23,8 +23,16 @@
 				<field>Проект</field>
 			</field>
 			<field xsi:type="DataSetFieldField">
+				<dataPath>НаименованиеПроекта</dataPath>
+				<field>НаименованиеПроекта</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
 				<dataPath>Этап</dataPath>
 				<field>Этап</field>
+			</field>
+			<field xsi:type="DataSetFieldField">
+				<dataPath>НаименованиеЭтапа</dataPath>
+				<field>НаименованиеЭтапа</field>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Задача</dataPath>
