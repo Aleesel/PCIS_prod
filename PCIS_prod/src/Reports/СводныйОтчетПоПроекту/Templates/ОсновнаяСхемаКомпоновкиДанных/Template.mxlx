@@ -154,10 +154,10 @@
 					</dcsset:item>
 				</dcsset:order>
 				<dcsset:outputParameters>
-					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
-						<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
-					</dcscor:item>
+					<dcsset:item xsi:type="dcsset:SettingsParameterValue">
+						<dcsset:parameter>РасположениеИтогов</dcsset:parameter>
+						<dcsset:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcsset:value>
+					</dcsset:item>
 				</dcsset:outputParameters>
 				<dcsset:item xsi:type="dcsset:StructureItemTable">
 					<dcsset:column>
