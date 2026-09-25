@@ -40,7 +40,7 @@
 ИЗ
 	РегистрСведений.ХодВыполненияПроекта КАК ХодВыполненияПроекта</query>
 		</dataSet>
-		<settingsVariant>
+		<dcsset:settingsVariant xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
 			<dcsset:name>Основной</dcsset:name>
 			<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
 			<dcsset:settings xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
@@ -161,6 +161,6 @@
 					</dcsset:row>
 				</dcsset:item>
 			</dcsset:settings>
-		</settingsVariant>
+		</dcsset:settingsVariant>
 	</DataCompositionSchema>
 </TemplateExtension>
