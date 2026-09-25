@@ -102,7 +102,7 @@
 		<parameters>
 			<name>ТекущаяДата</name>
 			<title>Текущая дата</title>
-			<valueType xmlns:v8="http://v8.1c.ru/8.1/data/core" xsi:type="v8:DateQualifiers"><dateFractions>Date</dateFractions></valueType>
+			<valueType>v8:DateQualifiers.Date</valueType>
 		</parameters>
 		</dataSet>
 		<dcsset:settingsVariant xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings">
